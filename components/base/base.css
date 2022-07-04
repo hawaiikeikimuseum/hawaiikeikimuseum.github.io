@@ -21,9 +21,9 @@ body {
 	font-size: 1rem;
 	font-weight: 400;
 	line-height: 1.375;
-	color: #925D92;
+	color: #7DAC76;
 	text-align: left;
-	background-color: #E9F2F7;
+	background-color: #83A9D9;
 }
 
 [tabindex="-1"]:focus {
@@ -326,7 +326,7 @@ h1, h2, h3, h4, h5, h6,
 	font-family: "Open Sans", sans-serif;
 	font-weight: 700;
 	line-height: 1.2;
-	color: #925D92;
+	color: #AC7A48;
 }
 
 h1, .h1 {
@@ -4828,7 +4828,7 @@ button.bg-dark:focus {
 	justify-content: center;
 	align-items: center;
 	padding: 20px;
-	background: #E4EFF8;
+	background: #ECE1A7;
 	transition: .3s all ease;
 }
 
@@ -4848,7 +4848,7 @@ button.bg-dark:focus {
 	justify-content: center;
 	width: 100px;
 	height: 100px;
-	background: #925D93;
+	background: #AC7A48;
 	border-radius: 50%;
 }
 
@@ -4857,7 +4857,7 @@ button.bg-dark:focus {
 	content: '';
 	width: 0;
 	height: 0;
-	border: 20px solid #E4EFF8;
+	border: 20px solid #ECE1A7;
 	border-radius: 50%;
 	animation: cssload-loader 1.15s infinite;
 }

@@ -174,9 +174,9 @@
 
 .btn-outline {
 	box-shadow: none;
-	border-color: #83A9D9;
+	border-color: #AC7A48;
 	background: transparent;
-	color: #83A9D9;
+	color: #AC7A48;
 }
 
 .btn-outline:hover {
@@ -222,8 +222,8 @@
 
 .btn-primary {
 	color: #fff;
-	border-color: #83A9D9;
-	background-color: #83A9D9;
+	border-color: #AC7A48;
+	background-color: #AC7A48;
 }
 
 .btn-primary:hover, .btn-primary.hover, .btn-primary:active, .btn-primary.active {

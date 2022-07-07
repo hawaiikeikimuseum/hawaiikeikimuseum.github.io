@@ -21,7 +21,7 @@ body {
 	font-size: 1rem;
 	font-weight: 400;
 	line-height: 1.375;
-	color: #7DAC76;
+	color: #AC7A48;
 	text-align: left;
 	background-color: #83A9D9;
 }
@@ -120,7 +120,7 @@ a {
 }
 
 a:hover {
-	color: #6D9B75;
+	color: #AC7A48;
 	text-decoration: underline;
 }
 

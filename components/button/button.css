@@ -220,9 +220,10 @@
 	border-radius: 0.3125rem;
 }
 
+/* Primary button color */
 .btn-primary {
 	color: #fff;
-	border-color: #AC7A48;
+	border-color: #7DAC76;
 	background-color: #AC7A48;
 }
 

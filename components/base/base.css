@@ -15,6 +15,7 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav: `;, secti
 	display: block;
 }
 
+/* Text color for <p> */
 body {
 	margin: 0;
 	font-family: "Open Sans", sans-serif;
@@ -23,7 +24,7 @@ body {
 	line-height: 1.375;
 	color: #AC7A48;
 	text-align: left;
-	background-color: #83A9D9;
+	background-color: #fff;
 }
 
 [tabindex="-1"]:focus {
@@ -320,6 +321,7 @@ template {
 	display: none !important;
 }
 
+/* Text headding H1 color */
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
 	margin-bottom: 0.5rem;
@@ -4817,6 +4819,7 @@ button.bg-dark:focus {
 	box-shadow: none !important;
 }
 
+/* color of the preloader screen background */
 .preloader {
 	position: fixed;
 	left: 0;
@@ -4842,6 +4845,7 @@ button.bg-dark:focus {
 	width: 100px;
 }
 
+/* color of the preloader ring */
 .cssload-loader {
 	display: flex;
 	align-items: center;
@@ -4852,6 +4856,7 @@ button.bg-dark:focus {
 	border-radius: 50%;
 }
 
+/* color of the preloader ring */
 .cssload-loader:before {
 	display: block;
 	content: '';

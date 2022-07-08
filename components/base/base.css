@@ -114,8 +114,9 @@ sup {
 	top: -.5em;
 }
 
+/* Color for the hypertext links */
 a {
-	color: #925D92;
+	color: #83A9D9;
 	text-decoration: none;
 	background-color: transparent;
 }

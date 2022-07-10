@@ -179,6 +179,7 @@
 	color: #AC7A48;
 }
 
+/* This is the hover behavior for the outline button */
 .btn-outline:hover {
 	border-color: #7DAC76;
 	background: #7DAC76;
@@ -227,11 +228,11 @@
 	background-color: #AC7A48;
 }
 
-/* ?? Color of the Primary button after roll over */
+/* Hover color for the Primary button */
 .btn-primary:hover, .btn-primary.hover, .btn-primary:active, .btn-primary.active {
 	color: #fff;
-	border-color: #2bab6e;
-	background-color: #2bab6e;
+	border-color: #7DAC76;
+	background-color: #7DAC76;
 }
 
 .btn-primary.btn-outline {

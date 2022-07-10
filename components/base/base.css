@@ -329,7 +329,7 @@ h1, h2, h3, h4, h5, h6,
 	font-family: "Open Sans", sans-serif;
 	font-weight: 700;
 	line-height: 1.2;
-	color: #AC7A48;
+	color: #7DAC76;
 }
 
 h1, .h1 {
@@ -4832,7 +4832,7 @@ button.bg-dark:focus {
 	justify-content: center;
 	align-items: center;
 	padding: 20px;
-	background: #ECE1A7;
+	background: #f2fffd;
 	transition: .3s all ease;
 }
 
@@ -4853,7 +4853,7 @@ button.bg-dark:focus {
 	justify-content: center;
 	width: 100px;
 	height: 100px;
-	background: #AC7A48;
+	background: #00a3cc;
 	border-radius: 50%;
 }
 
@@ -4863,7 +4863,7 @@ button.bg-dark:focus {
 	content: '';
 	width: 0;
 	height: 0;
-	border: 20px solid #ECE1A7;
+	border: 20px solid #f2fffd;
 	border-radius: 50%;
 	animation: cssload-loader 1.15s infinite;
 }

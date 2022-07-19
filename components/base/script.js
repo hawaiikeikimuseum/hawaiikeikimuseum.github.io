@@ -2130,6 +2130,7 @@ components.blobMorphing = {
 	}
 };
 
+/* Updated anchor from plan-your-visit to leadership and ticket-prices to donate */
 components.fullpage = {
 	selector: '.fullpage',
 	styles: './components/fullpage/fullpage.css',
@@ -2147,7 +2148,7 @@ components.fullpage = {
 				newState = null,
 				defaults = {
 					menu: '.fullpage-navigation',
-					anchors: [ 'home', 'home-2', 'home-3', 'about', 'plan-your-visit', 'our-exhibits', 'ticket-prices', 'contact' ],
+					anchors: [ 'home', 'home-2', 'home-3', 'about', 'leadership', 'our-exhibits', 'donate', 'contact' ],
 					navigation: true,
 					navigationPosition: 'left',
 					easingcss3: 'ease-in',

@@ -126,7 +126,7 @@
 	font-weight: 700;
 	box-shadow: none;
 	background: #fff;
-	color: #AC7A48;
+	color: #171724;
 	transition: all 0.2s ease-in-out;
 	padding: 0.625rem 1.875rem;
 	font-size: 1rem;
@@ -137,8 +137,8 @@
 .btn:hover, .btn.hover, .btn:active, .btn.active {
 	box-shadow: none;
 	text-decoration: none;
-	border-color: #AC7A48;
-	background: #fff;
+	border-color: #393944;
+	background: #393944;
 	color: #fff;
 }
 
@@ -172,6 +172,7 @@
 	margin-top: 1.875rem;
 }
 
+/* Outline Button is brown */
 .btn-outline {
 	box-shadow: none;
 	border-color: #AC7A48;
@@ -179,7 +180,7 @@
 	color: #AC7A48;
 }
 
-/* This is the hover behavior for the outline button */
+/* This is the hover behavior for the brown outline button */
 .btn-outline:hover {
 	border-color: #7DAC76;
 	background: #7DAC76;
@@ -221,53 +222,59 @@
 	border-radius: 0.3125rem;
 }
 
-/* Primary button color */
+/* Primary button color set to brown */
 .btn-primary {
 	color: #fff;
 	border-color: #AC7A48;
 	background-color: #AC7A48;
 }
 
-/* Hover color for the Primary button */
+/* Hover color for the Primary button set to sage green */
 .btn-primary:hover, .btn-primary.hover, .btn-primary:active, .btn-primary.active {
 	color: #fff;
 	border-color: #7DAC76;
 	background-color: #7DAC76;
 }
 
+/* Primary outline button is brown */
 .btn-primary.btn-outline {
-	color: #fff;
-	border-color: #fff;
+	color: #AC7A48;
+	border-color: #AC7A48;
 	background-color: transparent;
 }
 
+/* Hover color for the Primary Outline button is green */
 .btn-primary.btn-outline:hover, .btn-primary.btn-outline.hover, .btn-primary.btn-outline:active, .btn-primary.btn-outline.active {
 	color: #fff;
-	background-color: #fff;
+	background-color: #7DAC76;
 }
 
+/* Secondary button used on home-2 set to jewel blue */
 .btn-secondary {
 	color: #fff;
-	border-color: #AC7A48;
-	background-color: #ECE1A7;
+	border-color: #1098da;
+	background-color: #1098da;
 }
 
+/* Hover color for the Secondary button is green */
 .btn-secondary:hover, .btn-secondary.hover, .btn-secondary:active, .btn-secondary.active {
 	color: #fff;
-	border-color: #ECE1A7;
-	background-color: #AC7A48;
+	border-color: #6D9B75;
+	background-color: #6D9B75;
 }
 
-/* Outline Button */
+/* Secondary outline is jewel blue */
 .btn-secondary.btn-outline {
-	color: #fff;
-	border-color: #AC7A48;
+	color: #1098da;
+	border-color: #1098da;
 	background-color: transparent;
 }
 
+/* Hover color for the Secondary outline button is green */
 .btn-secondary.btn-outline:hover, .btn-secondary.btn-outline.hover, .btn-secondary.btn-outline:active, .btn-secondary.btn-outline.active {
-	color: #AC7A48;
-	background-color: #fff;
+	color: #fff;
+    border-color: #6D9B75;
+	background-color: #6D9B75;
 }
 
 .btn-success {
@@ -284,14 +291,14 @@
 
 
 .btn-success.btn-outline {
-	color: #AC7A48;
+	color: #7DAC76;
 	border-color: #7DAC76;
 	background-color: transparent;
 }
 
 .btn-success.btn-outline:hover, .btn-success.btn-outline.hover, .btn-success.btn-outline:active, .btn-success.btn-outline.active {
-	color: #fff;
-	background-color: #6D9B75;
+	color: #7DAC76;
+	background-color: #7DAC76;
 }
 
 .btn-info {
@@ -307,7 +314,7 @@
 }
 
 .btn-info.btn-outline {
-	color: #925D93;
+	color: #E4EFF8;
 	border-color: #E4EFF8;
 	background-color: transparent;
 }

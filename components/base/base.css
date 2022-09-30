@@ -22,7 +22,7 @@ body {
 	font-size: 1rem;
 	font-weight: 400;
 	line-height: 1.375;
-	color: #AC7A48;
+	color: black;
 	text-align: left;
 	background-color: #fff;
 }
@@ -116,13 +116,14 @@ sup {
 
 /* Color for the hypertext links */
 a {
-	color: #83A9D9;
+	color: #AC7A48;
 	text-decoration: none;
 	background-color: transparent;
 }
 
+/* Hover color for hypertext links */
 a:hover {
-	color: #AC7A48;
+	color: #7DAC76;
 	text-decoration: underline;
 }
 
@@ -329,7 +330,7 @@ h1, h2, h3, h4, h5, h6,
 	font-family: "Open Sans", sans-serif;
 	font-weight: 700;
 	line-height: 1.2;
-	color: #7DAC76;
+	color: #6D9B75;
 }
 
 h1, .h1 {
@@ -4820,7 +4821,7 @@ button.bg-dark:focus {
 	box-shadow: none !important;
 }
 
-/* color of the preloader screen background */
+/* Color of the preloader screen background */
 .preloader {
 	position: fixed;
 	left: 0;
@@ -4846,7 +4847,7 @@ button.bg-dark:focus {
 	width: 100px;
 }
 
-/* color of the preloader ring */
+/* Color of the preloader ring 1 of 2 */
 .cssload-loader {
 	display: flex;
 	align-items: center;
@@ -4857,7 +4858,7 @@ button.bg-dark:focus {
 	border-radius: 50%;
 }
 
-/* color of the preloader ring */
+/* Color of the preloader ring 2 of 2 */
 .cssload-loader:before {
 	display: block;
 	content: '';

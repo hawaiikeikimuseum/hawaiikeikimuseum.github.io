@@ -159,7 +159,7 @@
 
 /* Is this the close x on the hamburger menu? */
 .rd-navbar-fixed .navbar-switch:hover {
-	color: red;
+	color: black;
 }
 
 .rd-navbar-fixed .navbar-switch.active::before {
@@ -540,9 +540,10 @@
 	background: #fff;
 }
 
+/* The active button in the hamburger menu */
 .rd-navbar-fixed .navbar-navigation-root-item.active .navbar-navigation-root-link {
-	color: #ECE1A7;
-	background: #ECE1A7;
+	color: #90663D; 
+	background: rgba(1,1,1,.5);
 }
 
 .rd-navbar-fixed .navbar-navigation-root-link,

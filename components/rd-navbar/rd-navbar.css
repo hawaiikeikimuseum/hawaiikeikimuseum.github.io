@@ -493,7 +493,7 @@
 	font-weight: 400;
 	line-height: 1.2;
 	transition: .3s;
-	background: #7DAC76;
+	background: #f6f9f2;
 	box-shadow: none;
 	visibility: hidden;
 	opacity: 0;
@@ -542,7 +542,7 @@
 
 /* The active button in the hamburger menu */
 .rd-navbar-fixed .navbar-navigation-root-item.active .navbar-navigation-root-link {
-	color: #90663D; 
+	color: #90663D;
 	background: rgba(1,1,1,.5);
 }
 

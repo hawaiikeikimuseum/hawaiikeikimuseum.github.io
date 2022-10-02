@@ -24,7 +24,6 @@ body {
 	line-height: 1.375;
 	color: #90663D;
 	text-align: left;
-	background-color: #fff;
 }
 
 [tabindex="-1"]:focus {
@@ -357,10 +356,11 @@ h6, .h6 {
 	font-size: 1.125rem;
 }
 
+/* Making the text have a background to readability on mobile. */
 .lead {
 	font-size: 1.125rem;
 	font-weight: 400;
-    background-color: #f6f9f2;
+    background-color: rgba(255,255,255,.5);
 }
 
 .display-1 {

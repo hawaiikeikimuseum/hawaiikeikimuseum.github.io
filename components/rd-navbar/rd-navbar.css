@@ -477,9 +477,10 @@
 	margin-top: 0.125rem;
 }
 
+/* Controls background color of the hamburger menu */
 .rd-navbar-fixed .navbar-sidebar {
 	position: fixed;
-	text-align: center;
+	text-align: left;
 	top: 0;
 	left: 0;
 	width: 100%;
@@ -491,7 +492,7 @@
 	font-weight: 400;
 	line-height: 1.2;
 	transition: .3s;
-	background: blue;
+	background: #7DAC76;
 	box-shadow: none;
 	visibility: hidden;
 	opacity: 0;

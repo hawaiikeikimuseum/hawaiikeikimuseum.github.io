@@ -157,8 +157,9 @@
 	opacity: 0;
 }
 
+/* Is this the close x on the hamburger menu? */
 .rd-navbar-fixed .navbar-switch:hover {
-	color: yellow;
+	color: red;
 }
 
 .rd-navbar-fixed .navbar-switch.active::before {

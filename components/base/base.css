@@ -360,6 +360,7 @@ h6, .h6 {
 .lead {
 	font-size: 1.125rem;
 	font-weight: 400;
+    background-color: #f6f9f2;
 }
 
 .display-1 {

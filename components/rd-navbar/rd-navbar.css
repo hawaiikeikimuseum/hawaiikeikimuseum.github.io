@@ -20,7 +20,7 @@
 	line-height: 1;
 	opacity: 1;
 	visibility: visible;
-	background: none;
+	background: hotpink;
 	color: inherit;
 	transition: .25s ease-in-out;
 }
@@ -715,7 +715,7 @@
 	align-self: center;
 }
 
-/* Videw Width controls the size of the logo */
+/* Videw Width controls the size of the header logo */
 .rd-navbar-fullwidth .navbar-logo-default {
 	max-width: 53.177vw;
 }

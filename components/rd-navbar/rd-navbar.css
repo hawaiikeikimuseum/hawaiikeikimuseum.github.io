@@ -20,7 +20,7 @@
 	line-height: 1;
 	opacity: 1;
 	visibility: visible;
-	background: hotpink;
+	background: none;
 	color: inherit;
 	transition: .25s ease-in-out;
 }
@@ -157,7 +157,7 @@
 	opacity: 0;
 }
 
-/* Is this the close x and the hamburger menu */
+/* The color of the close x and the hamburger menu */
 .rd-navbar-fixed .navbar-switch:hover {
 	color: #90663D;
 }
@@ -543,7 +543,7 @@
 /* The color of the active button text in the hamburger menu */
 .rd-navbar-fixed .navbar-navigation-root-item.active .navbar-navigation-root-link {
 	color: #7DAC76;
-	background: #AC7A48;
+	background: rgba(AC,7A,48,.2);
 }
 
 /* The color of the text in the hamburger menu */

@@ -543,10 +543,10 @@
 /* The color of the active button text in the hamburger menu */
 .rd-navbar-fixed .navbar-navigation-root-item.active .navbar-navigation-root-link {
 	color: #7DAC76;
-	background: rgba(AC,7A,48,.5);
+	background: #AC7A48;
 }
 
-/* Is this the color of the text in the hamburger menu */
+/* The color of the text in the hamburger menu */
 .rd-navbar-fixed .navbar-navigation-root-link,
 .rd-navbar-fixed .navbar-navigation-megamenu-link,
 .rd-navbar-fixed .navbar-navigation-dropdown-link {
@@ -558,7 +558,7 @@
 	font-size: 26px;
 	font-family: "Lilita One", cursive;
 	overflow: hidden;
-	color: red;
+	color: #90663D;
 	transition: .2s;
 }
 

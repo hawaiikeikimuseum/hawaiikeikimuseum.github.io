@@ -157,9 +157,9 @@
 	opacity: 0;
 }
 
-/* Is this the close x on the hamburger menu? */
+/* Is this the close x and the hamburger menu */
 .rd-navbar-fixed .navbar-switch:hover {
-	color: black;
+	color: #90663D;
 }
 
 .rd-navbar-fixed .navbar-switch.active::before {
@@ -540,12 +540,13 @@
 	background: #fff;
 }
 
-/* The active button in the hamburger menu */
+/* The color of the active button text in the hamburger menu */
 .rd-navbar-fixed .navbar-navigation-root-item.active .navbar-navigation-root-link {
-	color: #90663D;
-	background: rgba(1,1,1,.5);
+	color: #7DAC76;
+	background: rgba(AC,7A,48,.5);
 }
 
+/* Is this the color of the text in the hamburger menu */
 .rd-navbar-fixed .navbar-navigation-root-link,
 .rd-navbar-fixed .navbar-navigation-megamenu-link,
 .rd-navbar-fixed .navbar-navigation-dropdown-link {
@@ -557,7 +558,7 @@
 	font-size: 26px;
 	font-family: "Lilita One", cursive;
 	overflow: hidden;
-	color: #fff;
+	color: red;
 	transition: .2s;
 }
 

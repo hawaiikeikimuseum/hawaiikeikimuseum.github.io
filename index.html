@@ -6,6 +6,7 @@
     button.css
     rights.css
     price.css
+    layer.css (to make sure the mobile images are small)
 An easy way to find my changes is to search for /*
 
 input.css was also changed thanks to Tim
@@ -58,6 +59,8 @@ All images have a resolution of 72dpi.
                 <div class="navbar-logo"><a class="navbar-logo-link" href="#home"><img class="navbar-logo-default" src="images/HKMBlockLogo.png" alt="HKM Block Logo" width="253" height="50"/></a></div>
               </div>
             </div>
+            <!-- COLOR of Navigation dots/pills on the left hand side of page are NOT set in badge.css or breadcrumb.css WHERE ARE THEY ?? maybe in  swiper.css?? -->
+            
             <!-- Navigation text colors are defined in rd-navbar.css -->
             <div class="navbar-cell navbar-sidebar">
               <ul class="navbar-navigation rd-navbar-nav fullpage-navigation">
@@ -78,8 +81,8 @@ All images have a resolution of 72dpi.
             <div class="navbar-cell">
               <div class="navbar-subpanel">
                 <div class="navbar-subpanel-item">
-<!-- COLOR of Navigation dots/pills on the left hand side of page are NOT set in badge.css or breadcrumb.css WHERE ARE THEY ?? maybe in swiper.css??
-                  <button class="navbar-button navbar-info-button mdi-dots-vertical" data-multi-switch='{"targets":".rd-navbar","scope":".rd-navbar","class":"navbar-info-active","isolate":"[data-multi-switch]"}'></button> -->
+               <!-- NOT USED What is this?
+               <button class="navbar-button navbar-info-button mdi-dots-vertical" data-multi-switch='{"targets":".rd-navbar","scope":".rd-navbar","class":"navbar-info-active","isolate":"[data-multi-switch]"}'></button> -->
                   <!-- Navigation icons in the upper right, color is defined in rd-navbar.css -->
                   <div class="navbar-info"><span><font color="#90663D">Open 10am - 6pm; closed Thursdays</font></span></div>
                       <div class="navbar-info">
@@ -117,10 +120,10 @@ All images have a resolution of 72dpi.
           <div class="container-wide">
             <div class="row row-30 section-row">
               <div class="col-xs-8 col-sm-7 col-md-6 section-content" data-animate='{"in":{"class":"fadeInUpBig","delay":".3s"},"out":{"class":"fadeOutUpBig","delay":".3s"}}'>
-                  <!-- Heading and paragraph text colors set in base.css -->
+                  <!-- Heading and paragraph text and background colors set in base.css -->
                 <h1>Aloha, and welcome to the Hawai'i Keiki Museum</h1>
                 <p class="lead">Discover, create, play, and learn about island science. The Hawai'i Keiki Museum connects keiki to Hawai'i Island through hands-on exploration of Science, Technology, Engineering, Art, and Math (STEAM) that is all around us using open ended play experiences.</p>
-                <p class="lead">Come enjoy a truly unique experience, with over a dozen exciting hands-on science exhibits it’s <em><b>Science Fueled Fun for the Whole Family.</b></em></p>
+                <p class="lead">Come enjoy a truly unique experience, with over a dozen exciting hands-on exhibits it’s <em><b>Science Fueled Fun for the Whole Family.</b></em></p>
                 <p class="lead"><b>Open 10am - 6pm everyday:</b> closed Thursdays</p>
                   <!-- Button colors defined in button.css -->
                   <div class="offset-md group-20 group-md-30">

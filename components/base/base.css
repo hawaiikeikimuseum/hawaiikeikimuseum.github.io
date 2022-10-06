@@ -357,12 +357,32 @@ h6, .h6 {
 }
 
 /* Making the text have a color block background for readability on mobile. */
-.lead {
+.lead1 {
 	font-size: 1.125rem;
 	font-weight: 400;
     background-color: transparent;
     padding: 1.25rem;
     background: #f6f9f2;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.12);
+    border-radius: 0.3125rem;
+}
+
+.lead3 {
+    font-size: 1.125rem;
+    font-weight: 400;
+    background-color: transparent;
+    padding: 1.25rem;
+    background: #FFFDFF;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.12);
+    border-radius: 0.3125rem;
+}
+
+.lead4 {
+    font-size: 1.125rem;
+    font-weight: 400;
+    background-color: transparent;
+    padding: 1.25rem;
+    background: #fff;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.12);
     border-radius: 0.3125rem;
 }

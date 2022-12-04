@@ -498,6 +498,14 @@ mark,
 	}
 }
 
+/* Nadia Edits to make sure the info in the navbar doesn't show */
+@media (min-width: 1920px) and (max-width: 2560px){
+    .navbar-info a.btn.btn-anis {
+        margin-left: -2px;
+    }
+}
+/* End Nadia edits */
+
 .text-monospace {
 	font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !important;
 }
